@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all-product-details {
+    width: 100vw;
+}
+.foto-of-product {
+    width: 80%;
+}
+
+.price-of-product{
+    color: red;
+}
+

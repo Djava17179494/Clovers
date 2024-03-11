@@ -1,0 +1,20 @@
+.all-input {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    width: 90px;
+}
+
+.productCount{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 70px
+}
+.plus-minus {
+    display: flex;
+    flex-direction: column;
+}
+.plus, .minus {
+    text-align: center;
+}
