@@ -1,0 +1,96 @@
+.flex-text{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left-text{
+    margin-left: 20px;
+    line-height: 1.3;
+}
+.empty1{
+    border: 0.5px solid black;
+}
+.text-weight{
+    font-weight: 600;
+    font-size: 17px;
+}
+.photo-basket{
+    width: 35px;
+}
+.background-photo1{
+    background-image: url(../../assets/backimg.1.webp) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+
+.great-deals{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    padding-left: 15px;
+}
+.selected{
+    line-height: 1.1em;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.paragraph{
+    line-height: 1.8em;
+    font-size: 15px;
+    width: 170px;
+}
+.limited{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    line-height: 1.1em;
+    text-align: center;
+    position: absolute;
+    bottom: 205px;
+    right: 15px; 
+}
+.background-photo2{
+    background-image: url(../../assets/backimg.2.webp);
+    background-size: cover;
+}
+.deal-cleaning{
+    padding-block: 100px;
+    padding-left: 15px;
+}
+.percent{
+    font-size: 100px;
+}
+.clean{
+    font-size: 22px;
+    font-weight: 700;
+}
+.deal{
+    font-size: 17px;
+    font-weight: 600;
+}
+.background-photo3{
+    background-image: url(../../assets/backimg.3.webp);
+    background-size: cover;
+    width: 100%;
+}
+.taste{
+    font-size:22px ;
+}
+.clock-italy{
+    font-size: 17px;
+   
+}
+.background-photo4{
+    background-image: url(../../assets/backimg.4.webp);
+    background-size: cover;
+    width: 100%;
+}

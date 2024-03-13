@@ -1,0 +1,72 @@
+.header-main{
+    background-color: #8C0000;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-clovers{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-inline: 15px;
+}
+.photoshop{
+    width: 30px;
+    color: white;
+}
+.border{
+    color: red;
+    background-color: white;
+    border: 1px  white;
+    width: 20px; 
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.photomenu{
+    width: 22px;
+    margin-left: 5px;
+}
+.shop-menu{
+    display: flex;
+   align-items: center;
+}
+.icon-search{
+    width: 20px;
+    background-color: white;
+    height: 37px;
+  
+}
+.search-input{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.search{
+    height: 37px;
+    border: none;
+    outline: none;
+    background-color: red;
+    border: 1px solid white; 
+    
+}
+.search::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+.clovers-shop{
+    display: flex;
+    justify-content: space-between;
+}
