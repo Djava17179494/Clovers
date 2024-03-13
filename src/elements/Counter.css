@@ -1,8 +1,9 @@
 .all-input {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
+    border: 1.5px solid rgba(147, 146, 146, 0.526);
     width: 90px;
+    margin-bottom: 30px;
 }
 
 .productCount{
@@ -18,3 +19,7 @@
 .plus, .minus {
     text-align: center;
 }
+.quantity {
+    margin-bottom: 10px;
+}
+
