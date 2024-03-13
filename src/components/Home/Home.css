@@ -1,0 +1,65 @@
+.aydan{
+    width: 100%;
+}
+.first-block h1{
+    text-align: center;
+    margin: 0 30px;
+}
+
+.categories-box{
+    width: 100%;
+    height: 100%;
+   
+    text-align: center;
+
+}
+.categories-box img{
+    width: 200px;
+}
+.boxes{
+     border: 1px solid lightgray;
+     width: 100%;
+	transition: backgroung-image 0.2s ease;
+}
+.second-block{
+    background-image: url(../../assets/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    padding: 30px 20px;
+}
+.second-block p{
+    font-size: 20px;
+    padding: 10px 0px;
+    width:250px ;
+}
+.second-block h1{
+    width: 250px;
+    font-size: 40px;
+}
+.buttonss{
+    display: flex;
+    flex-direction: row;
+}
+.phoneImg img{
+    width: 200px;
+}
+.phoneImg{
+    position: relative;
+    text-align: center;
+}
+.imagePosition{
+    position: absolute;
+    top: 30%;
+    left: 21px;
+    text-align: center;
+}
+.imagePosition img{
+    width: 155px;
+    border-radius: 20px;
+}
+
+
