@@ -42,9 +42,9 @@ let Home =()=>{
               <p><a>Download</a> Our App</p>
             </div>
           </div>
-          <div className='empty1'></div>
+          <div className='empty1 empty2'></div>
         </div>
-        <div>
+        <div className='background-part'>
           <div className='background-photo1 relative'>
            <div className='great-deals'>
             <p className='clock-italy'>It’s Wine O'Clock!</p>
@@ -63,7 +63,7 @@ let Home =()=>{
               </div>
           </div>
         </div>
-        <div>
+        <div className='background-part' >
           <div className='background-photo3'>
           <div className='great-deals'>
             <p className='clock-italy'>Taste of Italy</p>
@@ -78,7 +78,7 @@ let Home =()=>{
                 <h1 className='percent'>30%</h1>
                 <p className='clean'>Cereal Brands</p>
             </div>
-            <div className='limited'><p>Super Deal</p></div>
+            <div className='limited superdeal'><p>Super Deal</p></div>
           </div>
         </div>
 

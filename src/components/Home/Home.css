@@ -94,3 +94,37 @@
     background-size: cover;
     width: 100%;
 }
+.superdeal{
+top: 500%;
+right: 25px;
+}
+@media(min-width:990px){
+    .delivery-local{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-text{
+        margin-right: 60px;
+    }
+    .empty2{
+        display: none;
+    }
+    .background-part{
+        display: flex;
+        justify-content: center;
+    }
+    .background-photo1{
+        width: 50%;
+    }
+    .background-photo2{
+        margin-left: 40px;
+        width: 25%;
+    }
+    .background-photo3{
+      width: 40%;
+    }
+    .background-photo4{
+       width: 40%;
+       margin-left: 40px; 
+    }
+}

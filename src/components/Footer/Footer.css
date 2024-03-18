@@ -59,3 +59,23 @@
 .link-returns p{
     margin-top: 10px;
 }
+.deals-menu{
+    display: none;
+}
+@media(min-width:990px){
+    .deals-menu{
+        display: block;
+       margin-top: 40px;
+    }
+    .flex-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-inline: 30px;
+        
+    }
+    .footer-menu{
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+}

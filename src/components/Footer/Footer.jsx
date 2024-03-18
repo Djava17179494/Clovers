@@ -17,6 +17,7 @@ import diners from "../../assets/Diners.png"
 let Footer=()=>{
     return(
         <div className="footer-main">
+         <div className="flex-footer">
            <div className="footer-menu need-help">
               <h2 className="info-bottom">Clovers</h2>
               <h4>Need Help?</h4>
@@ -30,6 +31,19 @@ let Footer=()=>{
                 <img src={youtube} alt=""/>   
               </div>
            </div> 
+           <div className="deals-menu">
+            <h4 className="info-bottom">Menu</h4>
+            <ul className="list-caregories">
+               <li>Deals</li>
+               <li>Food</li>
+               <li>Beverages</li>
+               <li>Household</li>
+               <li>Personal Care</li>
+               <li>Most Popular</li>
+               <li>My Orders</li>
+
+            </ul>
+           </div>
            <div className="footer-menu"> 
             <h4 className="info-bottom">Caregories</h4>
               <ul className="list-caregories">
@@ -58,6 +72,7 @@ let Footer=()=>{
                 <li>Favorites</li>
                 <li>My Orders</li>
              </ul>
+           </div>
            </div>
            <div className="empty"></div>
            <div className="link-returns">
