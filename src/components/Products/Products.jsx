@@ -16,7 +16,7 @@ const Products = ({ products }) => {
   };
 
   const decrementCount = (index) => {
-    setCounts(prevCounts => {
+    setCounts(prevCounts
       const newCounts = [...prevCounts];
       if (newCounts[index] > 0) {
         newCounts[index]--;
