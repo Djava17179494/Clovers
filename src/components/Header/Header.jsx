@@ -14,6 +14,7 @@ import Avocados from "../../assets/Avocados.jpg";
 
 let Header = () => {
   let [text, setText] = useState("Shop on the go, download our app. Details");
+  let [isSearchShow, setIsSearchShow] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -21,8 +22,26 @@ let Header = () => {
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
+  // let inputField = document.querySelector('.search');
+  // let products = document.querySelector('.products');
+
+  // inputField.addEventListener('focus', function() {
+   
+  //   products.style.display = 'flex';
+  // });
+
+  
+  // inputField.addEventListener('blur', function() {
+  //   products.style.display = 'none';
+  // });
   
 
+  let inputFocused = () => {
+    setIsSearchShow(true)
+  }
+  let inputBlur = () =>{
+    setIsSearchShow(false)
+  }
   
 
   return (
@@ -45,6 +64,19 @@ let Header = () => {
           <div>
             <p>Clovers</p>
           </div>
+          <div className="search-input desctop " style={ isSearchShow ?
+           {borderBottomLeftRadius: 0, borderBottomRightRadius:0} : 
+           {borderBottomLeftRadius: 20, borderBottomRightRadius: 20} 
+           } >
+          <input onFocus={inputFocused} onBlur={inputBlur}
+            className="search"
+            type="text"
+            placeholder="Search a product e.g milk"
+          />
+          <button className="button-main" >
+          <img className="icon-search" src={Search} alt="" />
+         </button>
+           </div>
           <div>
             <div className="shop-menu">
               <div className="heart-location">
@@ -58,9 +90,11 @@ let Header = () => {
           </div>
         </div>
 
-        <div className="search-input">
-          <input
-           
+        <div className="search-input mobile" style={ isSearchShow ?
+           {borderBottomLeftRadius: 0, borderBottomRightRadius:0} : 
+           {borderBottomLeftRadius: 20, borderBottomRightRadius: 20} 
+           } >
+          <input onFocus={inputFocused} onBlur={inputBlur}
             className="search"
             type="text"
             placeholder="Search a product e.g milk"
@@ -68,7 +102,7 @@ let Header = () => {
           <button className="button-main" >
           <img className="icon-search" src={Search} alt="" />
          </button>
-          <div className="products"  >
+          <div className="products" style={ isSearchShow ? {display:"flex"} : {display:"none"} } >
             <p className="trending">Trending Products</p>
             <div className="photo-product">
               <div  className="imgsearch"><img src={Cream} alt=""/></div>
