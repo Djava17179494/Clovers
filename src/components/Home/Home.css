@@ -34,7 +34,7 @@
 }
 .selected{
     line-height: 1.1em;
-    font-size: 40px;
+    font-size: 75px;
     margin-top: 15px;
 }
 .paragraph{
@@ -74,7 +74,7 @@
     font-weight: 700;
 }
 .deal{
-    font-size: 17px;
+    font-size: 21px;
     font-weight: 600;
 }
 .background-photo3{
@@ -83,10 +83,10 @@
     width: 100%;
 }
 .taste{
-    font-size:22px ;
+    font-size:28px ;
 }
 .clock-italy{
-    font-size: 17px;
+    font-size: 18px;
    
 }
 .background-photo4{
@@ -98,7 +98,7 @@
 top: 500%;
 right: 25px;
 }
-@media(min-width:990px){
+@media(min-width:1440px){
     .delivery-local{
         display: flex;
         justify-content: center;

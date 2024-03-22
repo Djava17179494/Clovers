@@ -62,7 +62,7 @@
 .deals-menu{
     display: none;
 }
-@media(min-width:990px){
+@media(min-width:1440px){
     .deals-menu{
         display: block;
        margin-top: 40px;
