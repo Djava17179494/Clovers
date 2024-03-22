@@ -3,9 +3,29 @@
 }
 
 .product-price {
-    color: red;
+    color: #eb1414;
     font-weight: 600;
     font-size: larger;
+    margin-bottom: 15px;
+}
+
+.product-price span {
+    text-decoration: line-through;
+}
+
+.product-card {
+    border: 1px solid black;
+    margin-inline: 20px;
+    position: relative;
+}
+
+.product-details {
+    padding: 20px;
+
+}
+
+.product-list {
+    display: flex;
 }
 
 .counter-button {
@@ -16,5 +36,42 @@
     padding: 0;
     font: inherit;
     outline: none;
+    padding-inline: 5px;
+    font-size: 30px;
+}
 
+.product-button {
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding-block: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.counter-value {
+    margin-inline: 55px;
+    font-size: 20px;
+}
+
+.counter {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.product-title {
+    margin-bottom: 10px;
+    height: 36.8px;
+}
+
+.best-deal {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #eb1414;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 15px;
 }
