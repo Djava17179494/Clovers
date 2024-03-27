@@ -19,11 +19,13 @@ let Footer=()=>{
         <div className="footer-main">
          <div className="flex-footer">
            <div className="footer-menu need-help">
+            <div className="footer-info">
               <h2 className="info-bottom">Clovers</h2>
               <h4>Need Help?</h4>
               <p className="visit">Visit our Customer Support </p>
               <p>for assistance or call us at</p>
               <p className="nomer">123-456-7890</p>
+            </div>
               <div className="icon-facebook">
                  <img src={facebook} alt="" />
                  <img src={instagram} alt=""/>

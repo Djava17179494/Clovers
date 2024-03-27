@@ -7,6 +7,7 @@ import Products from "./components/Products/Products"
 import ProductDetails from "./components/ProductDetails/ProductDetails"
 import Summary from "./components/Summary/Summary"
 import MoreProducts from "./components/MoreProducts/MoreProducts"
+import PagesLog from './components/PagesLog/Pageslog';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <Route path={"/productDetails"}  element={ <ProductDetails/> } />
     <Route path={"/summary"}  element={ <Summary/> } />
     <Route path={"/moreProducts"}  element={ <MoreProducts/> } />
+    <Route path={"/pageslog"}  element={ <PagesLog/> } />
    </Routes>
   );
 }

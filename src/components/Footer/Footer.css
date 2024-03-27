@@ -15,7 +15,7 @@
 .footer-menu{
     margin-bottom: 30px;
 }
-.need-help{
+.footer-info{
     line-height: 2;
 }
 .nomer{
@@ -62,20 +62,25 @@
 .deals-menu{
     display: none;
 }
-@media(min-width:1440px){
+@media(min-width:1200px){
     .deals-menu{
         display: block;
-       margin-top: 40px;
+       margin-top: 30px;
     }
     .flex-footer{
         display: flex;
         justify-content: space-between;
         width: 100%;
         padding-inline: 30px;
+        font-size: 17px;
         
+    }
+    .link-returns{
+        font-size: 17px;
     }
     .footer-menu{
         margin-left: 20px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
+    
 }

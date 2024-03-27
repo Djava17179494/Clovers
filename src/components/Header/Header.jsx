@@ -22,28 +22,12 @@ let Header = () => {
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
-  // let inputField = document.querySelector('.search');
-  // let products = document.querySelector('.products');
-
-  // inputField.addEventListener('focus', function() {
-   
-  //   products.style.display = 'flex';
-  // });
-
-  
-  // inputField.addEventListener('blur', function() {
-  //   products.style.display = 'none';
-  // });
-  
-
   let inputFocused = () => {
     setIsSearchShow(true)
   }
   let inputBlur = () =>{
     setIsSearchShow(false)
   }
-  
-
   return (
     <div className="header">
       <div className="about-login">
