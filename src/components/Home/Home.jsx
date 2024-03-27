@@ -58,7 +58,7 @@ let Home =()=>{
           <div className='background-photo2'>
               <div className='deal-cleaning'>
                 <p className='deal'>Deal of the Week</p>
-                <h1 className='percent'>40%</h1>
+                <h1 className='percent'><span>40%</span>  <span style={{fontSize:30, fontWeight:600 }}>off</span></h1>
                 <p className='clean'>Cleaning Supplies</p>
               </div>
           </div>
@@ -75,7 +75,7 @@ let Home =()=>{
           <div className='background-photo4'>
           <div className='deal-cleaning'>
                 <p className='deal'>Deal of the Week</p>
-                <h1 className='percent'>30%</h1>
+                <h1 className='percent'><span>30%</span>  <span style={{fontSize:30, fontWeight:600 }}>off</span></h1>
                 <p className='clean'>Cereal Brands</p>
             </div>
             <div className='limited superdeal'><p>Super Deal</p></div>

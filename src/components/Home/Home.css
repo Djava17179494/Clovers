@@ -47,15 +47,15 @@
     align-items: center;
     border: 1px solid red;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     background-color: red;
     color: white;
-    font-size: 15px;
+    font-size: 23px;
     line-height: 1.1em;
     text-align: center;
     position: absolute;
-    bottom: 205px;
+    bottom: 231px;
     right: 15px; 
 }
 .background-photo2{
@@ -68,6 +68,8 @@
 }
 .percent{
     font-size: 100px;
+    display: flex;
+    
 }
 .clean{
     font-size: 22px;
@@ -126,5 +128,9 @@ right: 25px;
     .background-photo4{
        width: 40%;
        margin-left: 40px; 
+    }
+    .selected{
+        top: 205%;
+        right: 215px;
     }
 }
