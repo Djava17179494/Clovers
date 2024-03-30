@@ -2,6 +2,7 @@ import React from "react";
 import "./ProductDetails.css";
 import Handcreamfoto from "../../assets/hand-cream-foto.webp";
 import Counter from "../../elements/Counter";
+import Accardion from "../Support/Support"
 
 let ProductDetails = () => {
     return (
@@ -17,6 +18,7 @@ let ProductDetails = () => {
                     Describe your product clearly and concisely.
                     Use unique keywords.
                     Write your own description instead of using manufacturers' copy.</p>
+                <Accardion />
             </div>
         </div>
 

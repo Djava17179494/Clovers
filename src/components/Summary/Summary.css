@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.summary-list-div{
+    display: flex;
+    flex-direction: row;
+    /* display: none; */
+}
+.punkti:hover {
+    color: red;
+}
+.my-card-and-order-summary{
+    padding-inline: 20px;
+}
+.summary-my-card-foto {
+    width: 100px;
+    height: 150px;
+    border: 1px solid gray;
+}
+.summary-my-card-item {
+    display: flex;
+}
+.summary-my-card-counter-and-total{
+    display: flex;
+}
+.summary-my-card-name-price-counter-total{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.summary-my-card-name{
+    margin-bottom: 30px;
+}
+.summary-my-card-name-and-price{
+    margin-bottom: 40px;
+}
+.counterForSummary-func{
+    padding-top: 30px;
+}
+.my-card-h2{
+    margin-bottom: 20px;
+}
+.summary-my-card-item{
+    padding: 30px 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.promo-code{
+    padding: 14px 0;
+    border-bottom: 1px solid black;
+}
+.promo-code-top{
+    display: flex;
+}
+.enter-promocode{
+    padding-left: 6px;
+    color: #eb1414;
+}
+.promo-foto {
+    width: 20px;
+    transform: rotate(80deg);
+}
+.promo-code-input{
+    width: 65%;
+    height: 40px;
+}
+.promo-code-input-part{
+    padding: 20px 0 0;
+}
+.promo-code-input::placeholder{
+    text-align: center;
+    font-size: 16px;
+    
+}
+.promo-input-button{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eb1414;
+    border: 1px solid #eb1414;
+}
+.add-a-note-top{
+    display: flex;
+    align-items: center;
+}
+.add-a-note{
+    padding-left: 6px;
+    color: #eb1414;
+}
+.add-a-note-all{
+    padding: 14px 0;
+    border-bottom: 1px solid black;
+}
+.add-a-note-input{
+    width: 300px;
+    height: 100px;
+    margin: 20px 0;
+    display: flex;
+    align-items: flex-start;
+}
+.order-summary-h2{
+    display: none;
+}
+.subtotal-and-final-price{
+    display: flex;
+}
+.subtotal-p{
+    font-size: 18px;
+}
+.price-p{
+    padding-left: 240px;
+    font-size: 18px;
+}
+.subtotal-and-final-price-estimate{
+    padding-top: 20px;
+}
+.estimate-p{
+    padding-top: 20px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+.estimate-p:hover{
+    color: gray;
+}
+.total-h2{
+    font-size: 18px;
+}
+.total-sum{
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.totalPrice-p{
+    padding-left: 250px;
+    font-size: 18px;
+}
+.checkout-button{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: aliceblue;
+    background: #eb1414;
+    border-radius: 20px;
+    border-color: #eb1414;
+    margin-bottom: 10px;
+}
+.secure-checkout-with-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secure-checkout-p{
+    padding-left: 10px;
+    text-align: center;
+}

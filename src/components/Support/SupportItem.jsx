@@ -10,6 +10,9 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />
   ))(({ theme }) => ({
+    // "@media (min-width:375px)" : {
+      
+    // },
     "@media (min-width: 1024px)": {
       width: "100%",
     },

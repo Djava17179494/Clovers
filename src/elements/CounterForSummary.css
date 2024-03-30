@@ -1,0 +1,30 @@
+
+.all-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1.5px solid black;
+    width: 80px;
+}
+.label{
+    padding-top: 10px;
+    height: 40px;
+}
+.productCount{
+    border: none;
+    outline: none;
+    padding: 5px 5px 5px 25px;
+    width: 50px;
+}
+.plus-minus {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-inline: 5px;
+}
+.plus, .minus {
+    text-align: center;
+}
+.totalSum {
+    padding-left: 25px;
+}
+
