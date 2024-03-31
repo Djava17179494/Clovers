@@ -1,28 +1,51 @@
-.aydan{
+.aydan {
     width: 100%;
-}
-.first-block h1{
-    text-align: center;
-    margin: 0 30px;
+    font-family: monospace
 }
 
-.categories-box{
+.most-popular {
+    text-align: center;
+    /* margin: 20px 30px; */
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.categories-box {
     width: 100%;
     height: 100%;
-   
     text-align: center;
-
 }
-.categories-box img{
+
+.categories-box img {
     width: 200px;
 }
-.boxes{
-     border: 1px solid lightgray;
-     width: 100%;
-	transition: backgroung-image 0.2s ease;
+
+.boxes {
+    border: 1px solid lightgray;
+    width: 100%;
+    height: 270px;
+    transition: backgroung-image 0.2s ease;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.second-block{
-    background-image: url(../../assets/background.webp);
+
+.circle-image {
+    width: 160px;
+    height: 160px;
+    background-color: rgb(248, 164, 29);
+    border-radius: 80px;
+    position: absolute;
+    z-index: -1;
+    top: 15px;
+    left: calc((100% - 185px) / 2);
+}
+
+.second-block {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/background.webp);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 50px 0;
@@ -30,36 +53,223 @@
     color: white;
     font-weight: bold;
     padding: 30px 20px;
+    position: relative;
 }
-.second-block p{
+
+.item-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.second-block p {
     font-size: 20px;
     padding: 10px 0px;
-    width:250px ;
+    width: 250px;
 }
-.second-block h1{
+
+.second-block h1 {
     width: 250px;
     font-size: 40px;
 }
-.buttonss{
+
+.buttonss {
     display: flex;
     flex-direction: row;
 }
-.phoneImg img{
-    width: 200px;
-}
-.phoneImg{
+
+.phoneImg {
     position: relative;
-    text-align: center;
 }
-.imagePosition{
+
+.image-absolute {
     position: absolute;
-    top: 30%;
-    left: 21px;
-    text-align: center;
-}
-.imagePosition img{
-    width: 155px;
+    width: 167px;
+    top: 4%;
+    left: 18%;
     border-radius: 20px;
 }
 
+.position-image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    right: 50%;
+}
 
+.third-block {
+    margin-top: 450px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/fotka-3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subscribeAndSave {
+    padding: 50px 0 50px 20px;
+    color: white;
+}
+
+.subscribeAndSave p {
+    padding-bottom: 10px;
+}
+
+.text-display-flex p {
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.subscribeAndSave h4 {
+    padding-bottom: 20px;
+}
+
+.text-display-flex h1 {
+    padding-bottom: 10px;
+    font-size: 100px;
+}
+
+.text-display-flex p {
+    font-size: 35px;
+}
+
+.text-display-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-email {
+    width: 270px;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    padding-left: 15px;
+    
+}
+
+
+
+
+@media(min-width:800px) {
+   
+}
+
+@media(min-width:1200px) {
+    .categories-box {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .boxes {
+        width: 315px;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .first-block {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .most-popular {
+        text-align: start;
+
+    }
+
+    .second-block {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/background2.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .order2 p {
+        font-size: 25px;
+        width: 70%;
+    }
+
+    .order2 h1 {
+        font-size: 65px;
+        width: 65%;
+    }
+
+    .order2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 45%;
+        padding: 60px 0;
+    }
+
+    .position-image {
+        left: 15%;
+    }
+
+    .image-position {
+        width: 350px;
+    }
+
+    .image-absolute {
+        width: 230px;
+    }
+
+    .buttonss {
+        padding-top: 20px;
+    }
+
+    .third-block {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/fotka-4.webp);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .subscribeAndSave {
+        padding: 70px 0;
+    }
+
+    .subscribeAndSave p {
+        font-size: 25px;
+    }
+
+    .subscribeAndSave span {
+        font-size: 15px;
+    }
+
+    .subscribeAndSave h4 {
+        font-size: 30px;
+    }
+
+    .text-display-flex h1 {
+        font-size: 130px;
+        padding: 0;
+    }
+
+    .text-display-flex p {
+        font-size: 35px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .subscribeAndSave input {
+        width: 500px;
+    }
+
+    .circle-image {
+        top: 20px;
+        left: 65px;
+    }
+
+}
