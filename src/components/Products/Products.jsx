@@ -60,7 +60,7 @@ let Products = () => {
     { id: 6, image: Tuna, name: 'Tuna Steak Fillet- 1lb', firstprice: 29.99, price: 26.99 },
   ];
 
-
+  
   return (
     <div className="product-list">
       {product.map((product, index) => (
