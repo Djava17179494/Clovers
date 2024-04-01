@@ -6,7 +6,7 @@
 .summary-list-div{
     display: flex;
     flex-direction: row;
-    /* display: none; */
+    display: none;
 }
 .punkti:hover {
     color: red;
@@ -156,4 +156,44 @@
 .secure-checkout-p{
     padding-left: 10px;
     text-align: center;
+}
+@media (min-width: 1200px) {
+    .my-card-and-order-summary{
+        display: flex;
+        justify-content: center;
+    }
+    .all-summary-page{
+        padding-inline: 150px;
+    }
+    .my-card-and-order-summary{
+        padding: 0;
+    }
+    .summary-list-div{
+        display: flex;
+        padding-inline: 20px;
+        margin: 15px 0 30px 0;
+    }
+    .punkti{
+        margin-right:40px;
+        font-size: 20px;
+    }
+    .summary-my-card-name-price-counter-total{
+        flex-direction: row;
+    }
+    .summary-my-card-counter-and-total{
+        margin-left: 50px;
+    }
+    .summary-order-summary{
+        padding-left: 50px;
+    }
+    .order-summary-h2{
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .subtotal-and-final-price-estimate{
+        border-top: 1px solid black;
+    }
+   .desctop-display-flex-row{
+    width: 60%;
+   }
 }

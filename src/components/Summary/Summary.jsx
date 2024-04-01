@@ -27,38 +27,40 @@ let Summary = () => {
                 <p className="punkti">My Orders</p>
             </div>
             <div className="my-card-and-order-summary">
-                <div className="summary-my-card">
-                    <h2 className="my-card-h2">My card</h2>
-                    <div className="summary-my-card-item">
-                        <img src={HandCream} className="summary-my-card-foto" alt="" />
-                        <div className="summary-my-card-name-price-counter-total">
-                            <div className="summary-my-card-name-and-price">
-                                <p className="summary-my-card-name">Hand Cream</p>
-                                <p className="summary-my-card-price">$2.99</p>
-                            </div>
-                            <div className="summary-my-card-counter-and-total">
-                                <CounterForSummary />
+                <div className="desctop-display-flex-row">
+                    <div className="summary-my-card">
+                        <h2 className="my-card-h2">My card</h2>
+                        <div className="summary-my-card-item">
+                            <img src={HandCream} className="summary-my-card-foto" alt="" />
+                            <div className="summary-my-card-name-price-counter-total">
+                                <div className="summary-my-card-name-and-price">
+                                    <p className="summary-my-card-name">Hand Cream</p>
+                                    <p className="summary-my-card-price">$2.99</p>
+                                </div>
+                                <div className="summary-my-card-counter-and-total">
+                                    <CounterForSummary />
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="promo-code" >
-                    <div className="promo-code-top" onClick={enterCode}>
-                        <img src={Promo} alt="" style={{ opacity: 0.8 }} className="promo-foto" />
-                        <p className="enter-promocode">Enter a promo code</p>
+                    <div className="promo-code" >
+                        <div className="promo-code-top" onClick={enterCode}>
+                            <img src={Promo} alt="" style={{ opacity: 0.8 }} className="promo-foto" />
+                            <p className="enter-promocode">Enter a promo code</p>
+                        </div>
+                        <div className="promo-code-input-part" style={{ display: showInput ? "flex" : "none" }}>
+                            <input type="text" placeholder="Enter a promo code" className="promo-code-input" />
+                            <div className="promo-input-button">Apply</div>
+                        </div>
                     </div>
-                    <div className="promo-code-input-part" style={{ display: showInput ? "flex" : "none" }}>
-                        <input type="text" placeholder="Enter a promo code" className="promo-code-input" />
-                        <div className="promo-input-button">Apply</div>
-                    </div>
-                </div>
-                <div className="add-a-note-all">
-                    <div className="add-a-note-top" onClick={noteInput}>
-                        <img src={Description} alt="" style={{ opacity: 0.8 }} />
-                        <p className="add-a-note">Add a note</p>
-                    </div>
-                    <div className="add-a-note-input-part" style={{ display: showNote ? "flex" : "none" }}>
-                        <input type="text" placeholder="Instructions? Special requests? Add them here." className="add-a-note-input" />
+                    <div className="add-a-note-all">
+                        <div className="add-a-note-top" onClick={noteInput}>
+                            <img src={Description} alt="" style={{ opacity: 0.8 }} />
+                            <p className="add-a-note">Add a note</p>
+                        </div>
+                        <div className="add-a-note-input-part" style={{ display: showNote ? "flex" : "none" }}>
+                            <input type="text" placeholder="Instructions? Special requests? Add them here." className="add-a-note-input" />
+                        </div>
                     </div>
                 </div>
                 <div className="summary-order-summary">

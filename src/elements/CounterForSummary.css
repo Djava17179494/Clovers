@@ -27,4 +27,9 @@
 .totalSum {
     padding-left: 25px;
 }
+@media (min-width: 1200px) {
+    .label{
+        padding: 0;
+    }
+}
 

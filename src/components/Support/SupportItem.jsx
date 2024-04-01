@@ -8,7 +8,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const Accordion = styled((props) => (
-    <MuiAccordion disableGutters elevation={0} square {...props} />
+    <MuiAccordion defaultExpanded={true} disableGutters elevation={0} square {...props} />
   ))(({ theme }) => ({
     // "@media (min-width:375px)" : {
       
@@ -52,13 +52,13 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 
 const SupportItem = ({ num, title, desc }) => {
-    const [isAccordionOpen, setIsAccordionOpen] = useState(false);
+    const [isAccordionOpen, setIsAccordionOpen] = useState("panel1");
 
   const toggleAccordion = (panel) => (event, newExpanded) => {
     setIsAccordionOpen(newExpanded ? panel : false);
   };
     return (
-        <Accordion
+        <Accordion 
       expanded={isAccordionOpen === `panel${num}`}
       onChange={toggleAccordion(`panel${num}`)}
     >
