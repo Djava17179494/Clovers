@@ -199,7 +199,7 @@ function MoreProducts() {
     <Box display="flex" flexDirection="column">
       <Box display="flex" justifyContent="space-between" padding={2} borderBottom="1px solid black">
         <Typography variant="h6" color="black" sx={{ margin: '0px 4px', cursor: 'pointer' }} onClick={toggleFilterModal}>
-          <Box sx={{ border: '1px solid black', padding: '2px', borderRadius: '4px', display: 'flex', alignItems: 'center' }}>
+          <Box sx={{ border: '1px solid black', padding: '2px', borderRadius: '4px', display: 'flex', alignItems: 'center', }}>
             Filter
             {isFilterOpen ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
           </Box>
@@ -279,7 +279,7 @@ function MoreProducts() {
   }else if (width > 1200){
     return (
       <Box display="flex">
-        <Box width="40%" padding={2}>
+        <Box width="40%" padding={2}>  
           <Typography className='filter' variant="h5" marginBottom={2} color="black">Filter By</Typography>
           <FilterSection title="Category">
             <Stack spacing={1}>
